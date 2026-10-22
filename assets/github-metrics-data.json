@@ -1,46 +1,41 @@
 {
-  "source": "local-test",
+  "source": "https://api.github.com/graphql",
   "user": "rladntlr",
   "languages": {
     "stats": {
+      "Python": 368155,
       "C++": 144273,
       "Java": 466068,
-      "Jupyter Notebook": 176864,
-      "Python": 344769,
       "HTML": 123022,
-      "Dockerfile": 122,
-      "Mako": 494,
+      "JavaScript": 3374,
       "CSS": 8578,
       "Shell": 101,
-      "JavaScript": 3374
+      "Dockerfile": 122,
+      "Mako": 494,
+      "Jupyter Notebook": 176864
     },
     "colors": {
+      "Python": "#3572A5",
       "C++": "#f34b7d",
       "Java": "#b07219",
-      "Jupyter Notebook": "#DA5B0B",
-      "Python": "#3572A5",
       "HTML": "#e34c26",
-      "Dockerfile": "#384d54",
-      "Mako": "#7e858d",
+      "JavaScript": "#f1e05a",
       "CSS": "#663399",
       "Shell": "#89e051",
-      "JavaScript": "#f1e05a"
+      "Dockerfile": "#384d54",
+      "Mako": "#7e858d",
+      "Jupyter Notebook": "#DA5B0B"
     },
-    "total": 1267665
+    "total": 1291051
   },
   "pr": {
     "count": 113,
-    "open": 0,
-    "closed": 1,
-    "merged": 112,
-    "drafts": 0
+    "merged": 112
   },
   "issues": {
     "count": 89,
     "open": 29,
-    "closed": 60,
-    "drafts": 0,
-    "skipped": 0
+    "closed": 60
   },
   "calendar": {
     "days": [
@@ -2255,7 +2250,7 @@
       {
         "date": "2026-10-22",
         "weekday": 4,
-        "count": 4,
+        "count": 5,
         "level": 1
       }
     ],
@@ -2265,5 +2260,5 @@
     "average": "1.80",
     "max": 48
   },
-  "fetched_at": "2026-10-22T14:32:49+09:00"
+  "fetched_at": "2026-10-22T16:24:28+09:00"
 }
