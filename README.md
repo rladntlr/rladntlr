@@ -1,60 +1,78 @@
-<!-- ✏️ 표시된 곳만 본인 정보로 바꾸면 됩니다 -->
+<!-- Design based on github.com/rdme0 -->
+<a href="https://metrics.lecoq.io/insights?user=rladntlr">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.png">
+    <img src="assets/github-metrics-light.png" width="800" alt="rladntlr의 GitHub Metrics — 지난 1년 입체 기여 그래프, 언어 비율, PR 및 이슈 통계">
+  </picture>
+</a>
 
-<!-- Header : text= 에 영문 이름 넣기 (띄어쓰기는 %20) -->
-![header](https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=27&height=200&section=header&text=rladntlr&fontSize=80&fontAlign=50&fontAlignY=40&desc=Backend%20%C2%B7%20AI%20Developer&descSize=26&descAlignY=75&animation=fadeIn)
+## 🛠️ Skills
+<!-- Glass icons: scripts/render_skills.py -->
 
-<!-- Typing -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hello+World!+This+is+rladntlr;Java+%C2%B7+Spring+%C2%B7+LLM+Fine-tuning" alt="Typing SVG"/>
+### Languages
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/java-glass-dark.png">
+    <img src="assets/skills/java-glass-light.png" width="84" alt="Java">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/python-glass-dark.png">
+    <img src="assets/skills/python-glass-light.png" width="84" alt="Python">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/cplusplus-glass-dark.png">
+    <img src="assets/skills/cplusplus-glass-light.png" width="84" alt="C++">
+  </picture>
 </p>
 
-</div>
+### Backend
 
-- 관심 분야: **Backend (Java · Spring)**
-
----
-
-<h2 align="center">Tech Stack</h2>
-
-<p align="center">
-  <b>Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=java,python,cpp" alt="Languages"/>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/springboot-glass-dark.png">
+    <img src="assets/skills/springboot-glass-light.png" width="84" alt="Spring Boot">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/mysql-glass-dark.png">
+    <img src="assets/skills/mysql-glass-light.png" width="84" alt="MySQL">
+  </picture>
 </p>
 
-<p align="center">
-  <b>Backend</b><br/>
-  <img src="https://skillicons.dev/icons?i=spring,mysql" alt="Backend"/>
+### AI / Data
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/pytorch-glass-dark.png">
+    <img src="assets/skills/pytorch-glass-light.png" width="84" alt="PyTorch">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/huggingface-glass-dark.png">
+    <img src="assets/skills/huggingface-glass-light.png" width="84" alt="Hugging Face">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/scikitlearn-glass-dark.png">
+    <img src="assets/skills/scikitlearn-glass-light.png" width="84" alt="scikit-learn">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/jupyter-glass-dark.png">
+    <img src="assets/skills/jupyter-glass-light.png" width="84" alt="Jupyter">
+  </picture>
 </p>
 
-<p align="center">
-  <b>AI / Data</b><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn" alt="AI"/>
+### Tools
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/git-glass-dark.png">
+    <img src="assets/skills/git-glass-light.png" width="84" alt="Git">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/github-glass-dark.png">
+    <img src="assets/skills/github-glass-light.png" width="84" alt="GitHub">
+  </picture>
 </p>
 
-<p align="center">
-  <b>Tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,idea,vscode" alt="Tools"/>
-</p>
+## 💾 Projects
 
-<div align="center">
-
-Hugging Face &middot; QLoRA &middot; Jupyter &middot; Slack API
-
-</div>
-
----
-
-<h2 align="center">Projects</h2>
-
-
----
-
-<h2 align="center">Programming Stats</h2>
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=rladntlr&show_icons=true&hide_border=true&bg_color=00000000"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rladntlr&layout=compact&hide_border=true&bg_color=00000000"/>
-</p>
-
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=27&height=120&section=footer)
+<!-- 집에서 채우기 -->

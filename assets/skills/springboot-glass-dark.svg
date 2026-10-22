@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="182" viewBox="0 0 192 182" fill="none" role="img" aria-labelledby="title">
+<title id="title">Spring Boot</title>
+<defs>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="mark" viewBox="0 0 24 24"><path d="m23.693 10.7058-4.73-8.1844c-.4094-.7106-1.4166-1.2942-2.2402-1.2942H7.2725c-.819 0-1.8308.5836-2.2402 1.2942L.307 10.7058c-.4095.7106-.4095 1.873 0 2.5837l4.7252 8.189c.4094.7107 1.4166 1.2943 2.2402 1.2943h9.455c.819 0 1.826-.5836 2.2402-1.2942l4.7252-8.189c.4095-.7107.4095-1.8732 0-2.5838zM10.9763 5.7547c0-.5365.4377-.9742.9742-.9742s.9742.4377.9742.9742v5.8217c0 .5366-.4377.9742-.9742.9742s-.9742-.4376-.9742-.9742zm.9742 12.4294c-3.6427 0-6.6077-2.965-6.6077-6.6077.0047-2.0896.993-4.0521 2.6685-5.304a.8657.8657 0 0 1 1.2142.1788.8657.8657 0 0 1-.1788 1.2143c-2.1602 1.6048-2.612 4.6592-1.0072 6.8194 1.6049 2.1603 4.6593 2.612 6.8195 1.0072 1.2378-.9177 1.9673-2.372 1.9673-3.9157a4.8972 4.8972 0 0 0-1.9861-3.925c-.386-.2824-.466-.8284-.1836-1.2143.2824-.386.8283-.466 1.2143-.1835 1.6895 1.2471 2.6826 3.2238 2.6873 5.3228 0 3.6474-2.965 6.6077-6.6077 6.6077z" fill="inherit" /></symbol>
+  <linearGradient id="surface" x1="20" y1="10" x2="100" y2="111" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffffff" stop-opacity=".21"/>
+    <stop offset=".42" stop-color="#ffffff" stop-opacity=".055"/>
+    <stop offset="1" stop-color="#88c86b" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="22" y1="12" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white" stop-opacity=".82"/>
+    <stop offset=".30" stop-color="white" stop-opacity=".14"/>
+    <stop offset=".64" stop-color="#88c86b" stop-opacity=".12"/>
+    <stop offset="1" stop-color="white" stop-opacity=".6"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="#e5f3de"/>
+    <stop offset=".38" stop-color="#9dd286" stop-opacity=".95"/>
+    <stop offset=".70" stop-color="#88c86b" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#cbe7be"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="white" stop-opacity=".73"/><stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".8" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#88c86b" flood-opacity=".18"/></filter>
+  <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#88c86b" flood-opacity=".36"/></filter>
+  <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
+</defs>
+<g transform="translate(32 0)">
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
+<g clip-path="url(#squircle)">
+  <ellipse cx="44" cy="83" rx="28" ry="20" fill="#88c86b" fill-opacity=".30" filter="url(#halo)"/>
+  <ellipse cx="99" cy="19" rx="29" ry="17" fill="white" fill-opacity=".15" filter="url(#halo)"/>
+  <path d="M13 46C42 21 76 44 115 20V10H14Z" fill="white" fill-opacity=".035"/>
+</g>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" stroke="url(#rim)" stroke-width="1.15"/>
+<rect x="16.8" y="12.8" width="94.4" height="94.4" rx="25" stroke="white" stroke-opacity=".06" stroke-width=".6"/>
+<path d="M25 30C27 22 32 19 40 18" stroke="white" stroke-opacity=".65" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M89 103C97 102 104 97 107 88" stroke="#cfe9c4" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+<g filter="url(#depth)">
+  <use href="#mark" x="34" y="31" width="60" height="60" fill="#88c86b" opacity=".43" transform="translate(0 1.7)"/>
+  <use href="#mark" x="34" y="29" width="60" height="60" fill="url(#logo)"/>
+  <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
+</g>
+
+</g>
+<text x="96" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#e4eaf3">Spring Boot</text>
+</svg>

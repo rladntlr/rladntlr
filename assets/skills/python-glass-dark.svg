@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="182" viewBox="0 0 192 182" fill="none" role="img" aria-labelledby="title">
+<title id="title">Python</title>
+<defs>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="mark" viewBox="0 0 24 24"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="inherit" /></symbol>
+  <linearGradient id="surface" x1="20" y1="10" x2="100" y2="111" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffffff" stop-opacity=".21"/>
+    <stop offset=".42" stop-color="#ffffff" stop-opacity=".055"/>
+    <stop offset="1" stop-color="#669ddd" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="22" y1="12" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white" stop-opacity=".82"/>
+    <stop offset=".30" stop-color="white" stop-opacity=".14"/>
+    <stop offset=".64" stop-color="#669ddd" stop-opacity=".12"/>
+    <stop offset="1" stop-color="white" stop-opacity=".6"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="#dde9f8"/>
+    <stop offset=".38" stop-color="#82afe3" stop-opacity=".95"/>
+    <stop offset=".70" stop-color="#669ddd" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#bcd4f0"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="white" stop-opacity=".73"/><stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".8" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#669ddd" flood-opacity=".18"/></filter>
+  <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#669ddd" flood-opacity=".36"/></filter>
+  <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
+</defs>
+<g transform="translate(32 0)">
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
+<g clip-path="url(#squircle)">
+  <ellipse cx="44" cy="83" rx="28" ry="20" fill="#669ddd" fill-opacity=".30" filter="url(#halo)"/>
+  <ellipse cx="99" cy="19" rx="29" ry="17" fill="white" fill-opacity=".15" filter="url(#halo)"/>
+  <path d="M13 46C42 21 76 44 115 20V10H14Z" fill="white" fill-opacity=".035"/>
+</g>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" stroke="url(#rim)" stroke-width="1.15"/>
+<rect x="16.8" y="12.8" width="94.4" height="94.4" rx="25" stroke="white" stroke-opacity=".06" stroke-width=".6"/>
+<path d="M25 30C27 22 32 19 40 18" stroke="white" stroke-opacity=".65" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M89 103C97 102 104 97 107 88" stroke="#c2d8f1" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+<g filter="url(#depth)">
+  <use href="#mark" x="34" y="31" width="60" height="60" fill="#669ddd" opacity=".43" transform="translate(0 1.7)"/>
+  <use href="#mark" x="34" y="29" width="60" height="60" fill="url(#logo)"/>
+  <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
+</g>
+
+</g>
+<text x="96" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#e4eaf3">Python</text>
+</svg>

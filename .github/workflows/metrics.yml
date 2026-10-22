@@ -1,0 +1,46 @@
+name: Refresh Metrics dashboard
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 06:17 Asia/Seoul
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/metrics.yml
+      - scripts/render_metrics.py
+      - scripts/metrics-requirements.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/metrics-requirements.txt
+      - name: Install renderer
+        run: |
+          python -m pip install -r scripts/metrics-requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Fetch public Metrics data and render both themes
+        run: python scripts/render_metrics.py --refresh
+      - name: Publish refreshed dashboard
+        run: |
+          git add assets/github-metrics-data.json assets/github-metrics-dark.svg assets/github-metrics-light.svg assets/github-metrics-dark.png assets/github-metrics-light.png
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Metrics dashboard"
+          git push
