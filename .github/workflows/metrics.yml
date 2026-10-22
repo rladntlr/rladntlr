@@ -32,7 +32,9 @@ jobs:
         run: |
           python -m pip install -r scripts/metrics-requirements.txt
           python -m playwright install --with-deps chromium
-      - name: Fetch public Metrics data and render both themes
+      - name: Fetch GitHub data and render both themes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/render_metrics.py --refresh
       - name: Publish refreshed dashboard
         run: |

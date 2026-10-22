@@ -1,26 +1,7 @@
 {
-  "source": "https://metrics.lecoq.io/insights?user=rladntlr",
+  "source": "local-test",
   "user": "rladntlr",
   "languages": {
-    "unique": 13,
-    "sections": [
-      "most-used"
-    ],
-    "details": [],
-    "indepth": false,
-    "colors": {
-      "C++": "#f34b7d",
-      "Java": "#b07219",
-      "Jupyter Notebook": "#DA5B0B",
-      "Python": "#3572A5",
-      "HTML": "#e34c26",
-      "Dockerfile": "#384d54",
-      "Mako": "#7e858d",
-      "CSS": "#663399",
-      "Shell": "#89e051",
-      "JavaScript": "#f1e05a"
-    },
-    "total": 1267665,
     "stats": {
       "C++": 144273,
       "Java": 466068,
@@ -33,148 +14,2256 @@
       "Shell": 101,
       "JavaScript": 3374
     },
-    "stats.recent": {},
-    "favorites": [
+    "colors": {
+      "C++": "#f34b7d",
+      "Java": "#b07219",
+      "Jupyter Notebook": "#DA5B0B",
+      "Python": "#3572A5",
+      "HTML": "#e34c26",
+      "Dockerfile": "#384d54",
+      "Mako": "#7e858d",
+      "CSS": "#663399",
+      "Shell": "#89e051",
+      "JavaScript": "#f1e05a"
+    },
+    "total": 1267665
+  },
+  "pr": {
+    "count": 113,
+    "open": 0,
+    "closed": 1,
+    "merged": 112,
+    "drafts": 0
+  },
+  "issues": {
+    "count": 89,
+    "open": 29,
+    "closed": 60,
+    "drafts": 0,
+    "skipped": 0
+  },
+  "calendar": {
+    "days": [
       {
-        "name": "Java",
-        "value": 0.3676586479866526,
-        "size": 466068,
-        "color": "#b07219",
-        "x": 0,
-        "lines": 0
+        "date": "2025-10-19",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "Python",
-        "value": 0.2719716959922377,
-        "size": 344769,
-        "color": "#3572A5",
-        "x": 0.3676586479866526,
-        "lines": 0
+        "date": "2025-10-20",
+        "weekday": 1,
+        "count": 1,
+        "level": 1
       },
       {
-        "name": "Jupyter Notebook",
-        "value": 0.13951951028071297,
-        "size": 176864,
-        "color": "#DA5B0B",
-        "x": 0.6396303439788903,
-        "lines": 0
+        "date": "2025-10-21",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
       },
       {
-        "name": "C++",
-        "value": 0.11381003656328761,
-        "size": 144273,
-        "color": "#f34b7d",
-        "x": 0.7791498542596033,
-        "lines": 0
+        "date": "2025-10-22",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "HTML",
-        "value": 0.09704614389448317,
-        "size": 123022,
-        "color": "#e34c26",
-        "x": 0.8929598908228908,
-        "lines": 0
+        "date": "2025-10-23",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "CSS",
-        "value": 0.006766771978401234,
-        "size": 8578,
-        "color": "#663399",
-        "x": 0.990006034717374,
-        "lines": 0
+        "date": "2025-10-24",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "JavaScript",
-        "value": 0.0026615864601452275,
-        "size": 3374,
-        "color": "#f1e05a",
-        "x": 0.9967728066957753,
-        "lines": 0
+        "date": "2025-10-25",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "Mako",
-        "value": 0.0003896928604954779,
-        "size": 494,
-        "color": "#7e858d",
-        "x": 0.9994343931559205,
-        "lines": 0
+        "date": "2025-10-26",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "Dockerfile",
-        "value": 9.623993720738524e-05,
-        "size": 122,
-        "color": "#384d54",
-        "x": 0.999824086016416,
-        "lines": 0
+        "date": "2025-10-27",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
       },
       {
-        "name": "Shell",
-        "value": 7.967404637660581e-05,
-        "size": 101,
-        "color": "#89e051",
-        "x": 0.9999203259536235,
-        "lines": 0
+        "date": "2025-10-28",
+        "weekday": 2,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2025-10-29",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-10-30",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-10-31",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-01",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-02",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-03",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-04",
+        "weekday": 2,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2025-11-05",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-06",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-07",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-08",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-09",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-10",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-11",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-12",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-13",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-14",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-15",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-16",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-17",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-18",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-19",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-20",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-21",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-22",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-23",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-24",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-25",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-26",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-27",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-28",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-29",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-11-30",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-01",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-02",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-03",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-04",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-05",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-06",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-07",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-08",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-09",
+        "weekday": 2,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2025-12-10",
+        "weekday": 3,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2025-12-11",
+        "weekday": 4,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2025-12-12",
+        "weekday": 5,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2025-12-13",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-14",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-15",
+        "weekday": 1,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2025-12-16",
+        "weekday": 2,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2025-12-17",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2025-12-18",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-19",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-20",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-21",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-22",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-23",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-24",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-25",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-26",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-27",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-28",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-29",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-30",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2025-12-31",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-01",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-02",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-03",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-04",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-05",
+        "weekday": 1,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-01-06",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-07",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-01-08",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-09",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-10",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-11",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-12",
+        "weekday": 1,
+        "count": 16,
+        "level": 2
+      },
+      {
+        "date": "2026-01-13",
+        "weekday": 2,
+        "count": 16,
+        "level": 2
+      },
+      {
+        "date": "2026-01-14",
+        "weekday": 3,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-01-15",
+        "weekday": 4,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-01-16",
+        "weekday": 5,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-01-17",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-18",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-19",
+        "weekday": 1,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-01-20",
+        "weekday": 2,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-01-21",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-01-22",
+        "weekday": 4,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-01-23",
+        "weekday": 5,
+        "count": 8,
+        "level": 1
+      },
+      {
+        "date": "2026-01-24",
+        "weekday": 6,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-01-25",
+        "weekday": 0,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-01-26",
+        "weekday": 1,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-01-27",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-01-28",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-01-29",
+        "weekday": 4,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-01-30",
+        "weekday": 5,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-01-31",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-01",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-02",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-03",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-04",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-05",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-06",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-07",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-08",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-09",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-10",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-11",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-12",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-13",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-14",
+        "weekday": 6,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-02-15",
+        "weekday": 0,
+        "count": 11,
+        "level": 1
+      },
+      {
+        "date": "2026-02-16",
+        "weekday": 1,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-02-17",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-18",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-02-19",
+        "weekday": 4,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-02-20",
+        "weekday": 5,
+        "count": 14,
+        "level": 2
+      },
+      {
+        "date": "2026-02-21",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-22",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-02-23",
+        "weekday": 1,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-02-24",
+        "weekday": 2,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-02-25",
+        "weekday": 3,
+        "count": 8,
+        "level": 1
+      },
+      {
+        "date": "2026-02-26",
+        "weekday": 4,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-02-27",
+        "weekday": 5,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-02-28",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-01",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-02",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-03",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-04",
+        "weekday": 3,
+        "count": 14,
+        "level": 2
+      },
+      {
+        "date": "2026-03-05",
+        "weekday": 4,
+        "count": 12,
+        "level": 1
+      },
+      {
+        "date": "2026-03-06",
+        "weekday": 5,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-03-07",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-08",
+        "weekday": 0,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-03-09",
+        "weekday": 1,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-03-10",
+        "weekday": 2,
+        "count": 20,
+        "level": 2
+      },
+      {
+        "date": "2026-03-11",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-12",
+        "weekday": 4,
+        "count": 21,
+        "level": 2
+      },
+      {
+        "date": "2026-03-13",
+        "weekday": 5,
+        "count": 10,
+        "level": 1
+      },
+      {
+        "date": "2026-03-14",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-15",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-16",
+        "weekday": 1,
+        "count": 12,
+        "level": 1
+      },
+      {
+        "date": "2026-03-17",
+        "weekday": 2,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-03-18",
+        "weekday": 3,
+        "count": 8,
+        "level": 1
+      },
+      {
+        "date": "2026-03-19",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-20",
+        "weekday": 5,
+        "count": 12,
+        "level": 1
+      },
+      {
+        "date": "2026-03-21",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-22",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-23",
+        "weekday": 1,
+        "count": 12,
+        "level": 1
+      },
+      {
+        "date": "2026-03-24",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-25",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-26",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-27",
+        "weekday": 5,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-03-28",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-29",
+        "weekday": 0,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-03-30",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-03-31",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-01",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-02",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-03",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-04",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-05",
+        "weekday": 0,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-04-06",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-07",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-08",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-09",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-10",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-11",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-12",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-13",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-14",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-15",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-16",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-17",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-18",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-19",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-20",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-21",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-22",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-23",
+        "weekday": 4,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-04-24",
+        "weekday": 5,
+        "count": 28,
+        "level": 3
+      },
+      {
+        "date": "2026-04-25",
+        "weekday": 6,
+        "count": 33,
+        "level": 3
+      },
+      {
+        "date": "2026-04-26",
+        "weekday": 0,
+        "count": 48,
+        "level": 4
+      },
+      {
+        "date": "2026-04-27",
+        "weekday": 1,
+        "count": 10,
+        "level": 1
+      },
+      {
+        "date": "2026-04-28",
+        "weekday": 2,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-04-29",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-04-30",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-01",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-02",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-03",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-04",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-05",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-06",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-07",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-08",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-09",
+        "weekday": 6,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-05-10",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-11",
+        "weekday": 1,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-05-12",
+        "weekday": 2,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-05-13",
+        "weekday": 3,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-05-14",
+        "weekday": 4,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-05-15",
+        "weekday": 5,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-05-16",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-17",
+        "weekday": 0,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-05-18",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-19",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-20",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-21",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-22",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-23",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-24",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-25",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-26",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-27",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-28",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-29",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-30",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-05-31",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-01",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-02",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-03",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-04",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-05",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-06",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-07",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-08",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-09",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-10",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-11",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-12",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-13",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-14",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-15",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-16",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-17",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-18",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-19",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-20",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-21",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-22",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-23",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-24",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-25",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-26",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-27",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-28",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-29",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-06-30",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-01",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-02",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-03",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-04",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-05",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-06",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-07",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-08",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-09",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-10",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-11",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-12",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-13",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-14",
+        "weekday": 2,
+        "count": 13,
+        "level": 2
+      },
+      {
+        "date": "2026-07-15",
+        "weekday": 3,
+        "count": 19,
+        "level": 2
+      },
+      {
+        "date": "2026-07-16",
+        "weekday": 4,
+        "count": 7,
+        "level": 1
+      },
+      {
+        "date": "2026-07-17",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-18",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-19",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-20",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-21",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-22",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-23",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-24",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-25",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-26",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-27",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-28",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-29",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-30",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-07-31",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-01",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-02",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-03",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-04",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-05",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-06",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-07",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-08",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-09",
+        "weekday": 0,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-08-10",
+        "weekday": 1,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-08-11",
+        "weekday": 2,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-08-12",
+        "weekday": 3,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-08-13",
+        "weekday": 4,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-08-14",
+        "weekday": 5,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-15",
+        "weekday": 6,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-16",
+        "weekday": 0,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-17",
+        "weekday": 1,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-18",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-19",
+        "weekday": 3,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-20",
+        "weekday": 4,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-08-21",
+        "weekday": 5,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-22",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-23",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-24",
+        "weekday": 1,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-08-25",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-26",
+        "weekday": 3,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-27",
+        "weekday": 4,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-08-28",
+        "weekday": 5,
+        "count": 12,
+        "level": 1
+      },
+      {
+        "date": "2026-08-29",
+        "weekday": 6,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-08-30",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-08-31",
+        "weekday": 1,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": 2,
+        "count": 11,
+        "level": 1
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": 3,
+        "count": 8,
+        "level": 1
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": 4,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": 5,
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": 6,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": 0,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-07",
+        "weekday": 1,
+        "count": 8,
+        "level": 1
+      },
+      {
+        "date": "2026-09-08",
+        "weekday": 2,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-09-09",
+        "weekday": 3,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-09-10",
+        "weekday": 4,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-11",
+        "weekday": 5,
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-09-12",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-13",
+        "weekday": 0,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-09-14",
+        "weekday": 1,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-15",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-09-16",
+        "weekday": 3,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-09-17",
+        "weekday": 4,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-09-18",
+        "weekday": 5,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-19",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-20",
+        "weekday": 0,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-09-21",
+        "weekday": 1,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-22",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-23",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-24",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-25",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-26",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-27",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-28",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-29",
+        "weekday": 2,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-09-30",
+        "weekday": 3,
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-10-01",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-02",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-03",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-04",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-05",
+        "weekday": 1,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-06",
+        "weekday": 2,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-10-07",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-10-08",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-09",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-10",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-11",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-12",
+        "weekday": 1,
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-10-13",
+        "weekday": 2,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": 3,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-10-15",
+        "weekday": 4,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-16",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-17",
+        "weekday": 6,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-18",
+        "weekday": 0,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-19",
+        "weekday": 1,
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-10-20",
+        "weekday": 2,
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-10-21",
+        "weekday": 3,
+        "count": 0,
+        "level": 0
+      },
+      {
+        "date": "2026-10-22",
+        "weekday": 4,
+        "count": 4,
+        "level": 1
       }
     ],
-    "recent": []
-  },
-  "followup": {
-    "sections": [
-      "repositories",
-      "user"
-    ],
-    "issues": {
-      "count": 34,
-      "open": 27,
-      "closed": 7,
-      "drafts": 0,
-      "skipped": 0,
-      "collaborators": {
-        "open": 0,
-        "closed": 0,
-        "drafts": 0,
-        "skipped": 0
-      }
-    },
-    "pr": {
-      "count": 46,
-      "open": 0,
-      "closed": 0,
-      "merged": 46,
-      "drafts": 0,
-      "collaborators": {
-        "open": 0,
-        "closed": 0,
-        "merged": 0,
-        "drafts": 0
-      }
-    },
-    "user": {
-      "issues": {
-        "count": 89,
-        "open": 29,
-        "closed": 60,
-        "drafts": 0,
-        "skipped": 0
-      },
-      "pr": {
-        "count": 113,
-        "open": 0,
-        "closed": 1,
-        "merged": 112,
-        "drafts": 0
-      }
-    }
-  },
-  "isocalendar": {
     "streak": {
-      "max": 13,
-      "current": 0
+      "max": 13
     },
-    "max": 48,
     "average": "1.80",
-    "svg": "\n            <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-top: -130px;\" viewBox=\"0,0 480,270\">\n              \n                <filter id=\"brightness1\">\n                  <feComponentTransfer>\n                    <feFuncR type=\"linear\" slope=\"0.6\" /><feFuncG type=\"linear\" slope=\"0.6\" /><feFuncB type=\"linear\" slope=\"0.6\" />\n                  </feComponentTransfer>\n                </filter>\n                <filter id=\"brightness2\">\n                  <feComponentTransfer>\n                    <feFuncR type=\"linear\" slope=\"0.19999999999999996\" /><feFuncG type=\"linear\" slope=\"0.19999999999999996\" /><feFuncB type=\"linear\" slope=\"0.19999999999999996\" />\n                  </feComponentTransfer>\n                </filter>\n              <g transform=\"scale(4) translate(12, 0)\"><g transform=\"translate(0, 0)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(1.7, 1)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.5)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(3.4, 2)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(5.1, 3)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(6.8, 4)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(8.5, 5)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(10.2, 6)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(11.9, 7)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.625)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.125)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.625)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.5)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(13.6, 8)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(15.299999999999999, 9)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(17, 10)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(18.7, 11)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.25)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(20.4, 12)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 5)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,4 0,3 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,3 1.7,4 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 6)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,4 0,3 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,3 1.7,4 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.375)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.625)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.5)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(22.099999999999998, 13)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.375)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g></g><g transform=\"translate(23.8, 14)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.125)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(25.5, 15)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(27.2, 16)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g></g><g transform=\"translate(28.9, 17)\">\n                    <g transform=\"translate(0, 4.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.375 0,2.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.375 1.7,3.375 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.125)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 9.875)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.125 0,2.125 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.125 1.7,3.125 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(30.599999999999998, 18)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.25)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.125)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.25)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(32.3, 19)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 7.375)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.625 0,2.625 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.625 1.7,3.625 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 8.5)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.5 0,2.5 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.5 1.7,3.5 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(34, 20)\">\n                    <g transform=\"translate(0, 5.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 5.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,4.375 0,3.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,3.375 1.7,4.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 7.375)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,4.625 0,3.625 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,3.625 1.7,4.625 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 9.75)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.25 0,2.25 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.25 1.7,3.25 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(35.699999999999996, 21)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 5.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.5 0,2.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.5 1.7,3.5 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.375)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.125)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 9.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.5 0,2.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.5 1.7,3.5 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(37.4, 22)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 5.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.5 0,2.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.5 1.7,3.5 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.625)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(39.1, 23)\">\n                    <g transform=\"translate(0, 5.5)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(40.8, 24)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(42.5, 25)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(44.199999999999996, 26)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.125)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 7.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,5.5 0,4.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,4.5 1.7,5.5 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 7.875)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,6.125 0,5.125 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,5.125 1.7,6.125 z\" />\n                    </g></g><g transform=\"translate(45.9, 27)\">\n                    <g transform=\"translate(0, 0)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,8 0,7 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,7 1.7,8 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 5.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.25 0,2.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.25 1.7,3.25 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(47.6, 28)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.625)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g></g><g transform=\"translate(49.3, 29)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.625)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.375)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(51, 30)\">\n                    <g transform=\"translate(0, 5.75)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(52.699999999999996, 31)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(54.4, 32)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(56.1, 33)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(57.8, 34)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(59.5, 35)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(61.199999999999996, 36)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(62.9, 37)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(64.6, 38)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 6.375)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.625 0,2.625 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.625 1.7,3.625 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 6.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,4.375 0,3.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,3.375 1.7,4.375 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.125)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.875 0,1.875 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.875 1.7,2.875 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(66.3, 39)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(68, 40)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(69.7, 41)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(71.39999999999999, 42)\">\n                    <g transform=\"translate(0, 5.625)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.375)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.625)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.25)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g></g><g transform=\"translate(73.1, 43)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.5)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(74.8, 44)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 9.5)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.5 0,2.5 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.5 1.7,3.5 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.375)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g></g><g transform=\"translate(76.5, 45)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.25)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 6.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3.375 0,2.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2.375 1.7,3.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.625)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.375)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.625 0,1.625 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.625 1.7,2.625 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 11.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g></g><g transform=\"translate(78.2, 46)\">\n                    <g transform=\"translate(0, 5.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,3 0,2 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,2 1.7,3 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.625)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.25)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.75 0,1.75 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.75 1.7,2.75 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(79.89999999999999, 47)\">\n                    <g transform=\"translate(0, 5.5)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.625)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 9.5)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.5 0,1.5 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.5 1.7,2.5 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 10.75)\">\n                      <path fill=\"#9be9a8\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#9be9a8\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(81.6, 48)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 8)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(83.3, 49)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(85, 50)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 7)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(86.7, 51)\">\n                    <g transform=\"translate(0, 5.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.625)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.375 0,1.375 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.375 1.7,2.375 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 8.75)\">\n                      <path fill=\"#30a14e\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#30a14e\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-6.8, 10)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-8.5, 11)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-10.2, 12)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g><g transform=\"translate(88.39999999999999, 52)\">\n                    <g transform=\"translate(0, 6)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g>\n                    <g transform=\"translate(-1.7, 6.75)\">\n                      <path fill=\"#216e39\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.25 0,1.25 z\" />\n                      <path fill=\"#216e39\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.25 1.7,2.25 z\" />\n                    </g>\n                    <g transform=\"translate(-3.4, 7.875)\">\n                      <path fill=\"#40c463\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2.125 0,1.125 z\" />\n                      <path fill=\"#40c463\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z\" />\n                    </g>\n                    <g transform=\"translate(-5.1, 9)\">\n                      <path fill=\"#ebedf0\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,2 0,1 z\" />\n                      <path fill=\"#ebedf0\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,1 1.7,2 z\" />\n                    </g></g></g></svg>",
-    "duration": "full-year"
+    "max": 48
   },
   "fetched_at": "2026-10-22T14:32:49+09:00"
 }

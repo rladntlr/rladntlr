@@ -1,5 +1,5 @@
 <!-- Design based on github.com/rdme0 -->
-<a href="https://metrics.lecoq.io/insights?user=rladntlr">
+<a href="https://github.com/rladntlr">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.png">
     <img src="assets/github-metrics-light.png" width="800" alt="rladntlr의 GitHub Metrics — 지난 1년 입체 기여 그래프, 언어 비율, PR 및 이슈 통계">
