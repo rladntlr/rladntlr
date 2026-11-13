@@ -5,7 +5,7 @@
     "stats": {
       "Python": 368155,
       "C++": 144273,
-      "Java": 464002,
+      "Java": 467784,
       "HTML": 123022,
       "JavaScript": 3374,
       "CSS": 8578,
@@ -26,7 +26,7 @@
       "Mako": "#7e858d",
       "Jupyter Notebook": "#DA5B0B"
     },
-    "total": 1288985
+    "total": 1292767
   },
   "pr": {
     "count": 113,
@@ -2250,8 +2250,14 @@
       {
         "date": "2026-11-12",
         "weekday": 4,
-        "count": 2,
+        "count": 5,
         "level": 1
+      },
+      {
+        "date": "2026-11-13",
+        "weekday": 5,
+        "count": 0,
+        "level": 0
       }
     ],
     "streak": {
@@ -2260,5 +2266,5 @@
     "average": "2.01",
     "max": 48
   },
-  "fetched_at": "2026-11-12T11:18:14+09:00"
+  "fetched_at": "2026-11-13T10:53:56+09:00"
 }
